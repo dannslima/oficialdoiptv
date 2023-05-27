@@ -13,4 +13,25 @@
     cursor: pointer;
   }
 
+  /* proprios */
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
   
+  .responsive-image img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  @keyframes moveButton {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+  .moving-button {
+    animation: moveButton 2s infinite;
+  }
