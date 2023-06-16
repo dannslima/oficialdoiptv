@@ -2402,7 +2402,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #testimonial-slider .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 
 #testimonial-slider .owl-dots .owl-dot span {
